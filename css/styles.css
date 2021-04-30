@@ -69,7 +69,7 @@ body {
 
 footer a{
     color: #6c757d;
-    font-size: 1rem;
+    font-size: 0.98rem;
 }
 
 footer .nav-link {
@@ -94,4 +94,15 @@ footer .nav-link:hover {
 
 #socials {
     font-size: 2rem;
+}
+
+.btn-service-code {
+    color: #6c757d;
+    border-color: #6c757d;
+    width: 8rem;
+}
+
+.btn-service-code:hover {
+    background-color: #6c757d;
+    color: white;
 }
