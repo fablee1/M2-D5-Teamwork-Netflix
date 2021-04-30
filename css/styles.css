@@ -1,9 +1,72 @@
+h1, h2, h3 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: white;
+}
+
+h3 {
+    display: block;
+}
+
+
+img, svg {
+    vertical-align: middle;
+}
+
+.movies {
+    width: 99%;
+    transition: 0.3s;
+    opacity: 0.7;
+}
+
+#genredetails {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn-outline-light {
+    margin-left: 80px;
+    border-radius: 0%;
+    font-size: 20px;
+}
+
+.btn-outline-secondary {
+    font-size: 18px;
+    border-radius: 0%;
+    
+}
+
+.menuitem {
+    margin-right: 40px;
+}
+
+#carouselExampleControlsOne {
+    margin: 40px 0px 40px 0
+}
+
+#carouselExampleControlsTwo {
+    margin: 40px 0px 40px 0
+}
+
+#carouselExampleControlsThree {
+    margin: 40px 0px 40px 0
+}
+
+h3 {
+    font-size: 23px
+}
+    
 :root {
     --navgray:rgba(255, 255, 255, 0.76);
 }
 
 body {
-    background: #000;
+    background: #141414;
     color: #fff;
     line-height: 1.2;
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
@@ -14,7 +77,6 @@ body {
 }
 
 #navbar {
-    position: fixed;
     padding-right: 40px; /*This can be edited to match padding on other components*/
     padding-left: 40px; /*This can be edited to match padding on other components*/
     width: 100%;
@@ -25,8 +87,12 @@ body {
     color: #fff;
 }
 
+.fa-bell::before {
+    margin: auto;
+}
+
 .navbar-bg {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(20,20,20,0.8);
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -51,17 +117,25 @@ body {
 }
 
 .dark-search {
-    background-color: #000;
+    background-color: rgba(20,20,20,0.8);
     border: none;
     color: var(--navgray);
     font-size: 1.2rem;
 }
 
+.btn-outline-success:active:focus {
+    box-shadow: none;
+}
+
 .btn-outline-success, .btn-outline-success:hover, .btn-outline-success:active, .btn-outline-success:focus {
-    color: #fff;
-    background-color: #000;
+    color: #6c757d;
+    background-color: rgba(0, 0, 0, 0);
     border-color: var(--navgray);
     box-shadow: none;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
 }
 
 .dropdown img {
@@ -89,7 +163,7 @@ body {
 
 footer a{
     color: #6c757d;
-    font-size: 1rem;
+    font-size: 0.98rem;
 }
 
 footer .nav-link {
@@ -114,4 +188,19 @@ footer .nav-link:hover {
 
 #socials {
     font-size: 2rem;
+}
+
+.btn-service-code {
+    color: #6c757d;
+    border-color: #6c757d;
+    width: 8rem;
+}
+
+.btn-service-code:hover {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-service-code:focus {
+    box-shadow: none;
 }
