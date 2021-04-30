@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+}
+
+h1, h2, h3 {
+margin-top: 0;
+margin-bottom: .5rem;
+font-weight: 500;
+line-height: 1.2;
+color: white;
+}
+
+h3 {
+    display: block;
+}
+
+
+img, svg {
+    vertical-align: middle;
+}
+
+.movies {
+    width: 99%;
+    transition: 0.3s;
+    opacity: 0.7;
+}
+
+#genredetails {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn-outline-light {
+    margin-left: 80px;
+    border-radius: 0%;
+    font-size: 20px;
+}
+
+.btn-outline-secondary {
+    font-size: 18px;
+    border-radius: 0%;
+    
+}
+
+.menuitem {
+    margin-right: 40px;
+}
+
+#carouselExampleControlsOne {
+    margin: 40px 0px 40px 0
+}
+
+#carouselExampleControlsTwo {
+    margin: 40px 0px 40px 0
+}
+
+#carouselExampleControlsThree {
+    margin: 40px 0px 40px 0
+}
+
+h3 {
+    font-size: 23px
+    
+}
