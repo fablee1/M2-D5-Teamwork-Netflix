@@ -1,0 +1,69 @@
+
+:root {
+    --navgray:rgba(255, 255, 255, 0.76);
+}
+
+body {
+    background: #000;
+    color: #fff;
+    line-height: 1.2;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}  
+
+#logo {
+    height: 55px;
+}
+
+#navbar {
+    position: fixed;
+    padding-right: 40px; /*This can be edited to match padding on other components*/
+    padding-left: 40px; /*This can be edited to match padding on other components*/
+    width: 100%;
+    z-index: 1;
+}
+
+#navbar a:hover {
+    color: #fff;
+}
+
+.navbar-bg {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--navgray);
+}
+
+.nav-item.active {
+    font-weight: bolder;
+}
+
+.searchbox {
+    position: absolute; /*This may need to be changed!*/
+    right: 110px;
+}
+
+.searchbox .nav-link {
+    color: var(--navgray);
+    font-size: 0.9rem;
+}
+
+.dark-search {
+    background-color: #000;
+    border: none;
+    color: var(--navgray);
+    font-size: 1.2rem;
+}
+
+.btn-outline-success:hover {
+    background-color: #000;
+}
+
+.dropdown img {
+    max-height: 25px;
+}
+
+.btn.btn-secondary.dropdown-toggle {
+    background-color: #000;
+    border: none;
+}
