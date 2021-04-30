@@ -218,12 +218,20 @@ body {
     color: #fff;
 }
 
+.btn-secondary {
+    color: #6c757d;
+}
+
+.btn-secondary:focus, .btn-secondary:active:focus {
+    box-shadow: none;
+}
+
 .dropdown img {
     max-height: 25px;
 }
 
 .btn.btn-secondary.dropdown-toggle {
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0);
     border: none;
 }
 
@@ -292,4 +300,17 @@ footer .nav-link:hover {
     margin-left: 26px;
     margin-top: 100px;
 
+}
+
+#genredetails h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#kids {
+    color: #6c757d;
+}
+
+#footerContainer {
+    margin-top: 100px;
 }
