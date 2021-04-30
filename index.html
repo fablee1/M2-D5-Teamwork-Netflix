@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <script src="https://kit.fontawesome.com/2caa67ff06.js" crossorigin="anonymous"></script>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,6 +12,50 @@
     <title>Netflix</title>
   </head>
   <body>
+
+    <nav class="navbar navbar-expand-xl navbar-dark navbar-bg" id="navbar">
+      <img id="logo" src="assets/netflix_logo.png">
+      <div class="collapse navbar-collapse justify-content-between">
+        <div>
+          <ul class="navbar-nav px-5">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">TV Shows</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Recently Added</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">My List</a>
+            </li>
+          </ul>
+        </div>
+        <div class="searchbox">
+          <form class="d-flex">
+            <input class="form-control dark-search" type="search" placeholder="" aria-label="Search">
+            <button class="btn btn-outline-success dark-search" type="submit"><i class="fas fa-search"></i></button>
+            <a class="nav-link px-3" href="#">KIDS</a>
+            <i class="btn btn-outline-success far fa-bell dark-search"></i>
+          </form>
+        </div>
+        <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="https://ih0.redbubble.net/image.618427277.3222/flat,1000x1000,075,f.u2.jpg"></a>
+            </a>        
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Vardan</a></li>
+              <li><a class="dropdown-item" href="#">Samuel</a></li>
+              <li><a class="dropdown-item" href="#">Viljams</a></li>
+              <li><a class="dropdown-item" href="#">Sarah</a></li>
+            </ul>
+        </div>             
+    </nav>
+
      
 
     <div class="container">
