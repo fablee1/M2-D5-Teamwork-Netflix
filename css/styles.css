@@ -67,13 +67,19 @@ body {
     font-size: 1.2rem;
 }
 
+.btn-outline-success:active:focus {
+    box-shadow: none;
+}
 
 .btn-outline-success, .btn-outline-success:hover, .btn-outline-success:active, .btn-outline-success:focus {
-    color: #fff;
+    color: #6c757d;
     background-color: rgba(0, 0, 0, 0);
     border-color: var(--navgray);
     box-shadow: none;
+}
 
+.btn-outline-success:hover {
+    color: #fff;
 }
 
 .dropdown img {
