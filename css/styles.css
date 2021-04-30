@@ -1,9 +1,89 @@
+
+.profile-body{
+    box-sizing: border-box;
+    background-color: rgb(24, 23, 23);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    color: #fff;
+    text-align: center;
+}
+#language, .maturity{
+    color: #fff;
+    font-size: large;
+}
+
+
+.message{
+    color: #fff;
+    font-size: 15px;
+    padding-left: 10px;
+}
+hr{
+    color: grey;
+}
+
+.btn-edit-language{
+    border: 1px solid white;
+    width: 150px;
+    background-color:  rgb(24, 23, 23);
+    text-align: left;
+}
+.btn-edit{
+    border: 1px solid grey;
+    width: 100px;
+    background-color:  rgb(24, 23, 23);
+    text-align: center;
+}
+.btn-edit:hover{
+    background-color: #fff;
+    color: black;
+}
+.btn-controls{
+    background-color:  rgb(24, 23, 23);
+    border: 1px solid grey;
+    padding: 0.5em 8%;
+    font-size: 1.25em;
+    border-radius: 0;
+}
+.btn-controls:hover{
+    background-color: #fff;
+    color: black;
+}
+.form-check-input{
+    width: 30px;
+    height: 20px;
+    background-color: rgb(24, 23, 23);
+    border: 1px solid rgb(104, 99, 99);
+}
+.form-check-input:focus, .form-check-input:checked {
+    background-color:rgb(24, 23, 23);
+}
+
+.strive-input{
+    background-color: grey;
+    font-weight: bolder;
+    color: #fff;
+    height: 50px;
+    border: none;
+}
+.language-row{
+    margin-top: 55px;
+}
+.maturity, .maturity-ratings{
+    margin-bottom: 15px;
+}
+
+.maturity-ratings{
+    background-color: grey;
+}
+
 h1, h2, h3 {
-margin-top: 0;
-margin-bottom: .5rem;
-font-weight: 500;
-line-height: 1.2;
-color: white;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: white;
 }
 
 h3 {
@@ -59,6 +139,7 @@ img, svg {
 
 h3 {
     font-size: 23px
+}
     
 :root {
     --navgray:rgba(255, 255, 255, 0.76);
@@ -69,6 +150,8 @@ body {
     color: #fff;
     line-height: 1.2;
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
 }  
 
 #logo {
@@ -76,9 +159,6 @@ body {
 }
 
 #navbar {
-    position: fixed;
-    padding-right: 40px; /*This can be edited to match padding on other components*/
-    padding-left: 40px; /*This can be edited to match padding on other components*/
     width: 100%;
     z-index: 1;
 }
@@ -103,9 +183,8 @@ body {
     font-weight: bolder;
 }
 
-.searchbox {
-    position: absolute; /*This may need to be changed!*/
-    right: 110px;
+.alertbellbox a {
+    color: #fff;
 }
 
 .searchbox .nav-link {
@@ -115,11 +194,6 @@ body {
 
 #hideable {
     visibility: hidden;
-    color: #666;
-}
-
-#hideable:hover {
-    visibility: visible;
 }
 
 .dark-search {
@@ -151,6 +225,18 @@ body {
 .btn.btn-secondary.dropdown-toggle {
     background-color: #000;
     border: none;
+}
+
+.dropdown-menu {
+    max-height: 37px;
+}
+
+.dropdown-item {
+    background-color: #666;
+}
+
+.dropdown-menu.show {
+    background-color: #666;
 }
 
 footer a{
