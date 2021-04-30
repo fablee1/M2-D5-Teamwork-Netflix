@@ -103,9 +103,8 @@ body {
     font-weight: bolder;
 }
 
-.searchbox {
-    position: absolute; /*This may need to be changed!*/
-    right: 110px;
+.alertbellbox a {
+    color: #fff;
 }
 
 .searchbox .nav-link {
@@ -115,11 +114,6 @@ body {
 
 #hideable {
     visibility: hidden;
-    color: #666;
-}
-
-#hideable:hover {
-    visibility: visible;
 }
 
 .dark-search {
@@ -151,6 +145,20 @@ body {
 .btn.btn-secondary.dropdown-toggle {
     background-color: #000;
     border: none;
+}
+
+.dropdown-menu {
+    min-height: 35px;
+}
+
+.dropdown-menu.show {
+    background-color: #666;
+}
+
+#profile-dropdown {}
+
+.dropdown-search {
+    max-height: 20px;
 }
 
 footer a{
