@@ -47,6 +47,15 @@ body {
     font-size: 0.9rem;
 }
 
+#hideable {
+    visibility: hidden;
+    color: #666;
+}
+
+#hideable:hover {
+    visibility: visible;
+}
+
 .dark-search {
     background-color: #000;
     border: none;
@@ -54,8 +63,11 @@ body {
     font-size: 1.2rem;
 }
 
-.btn-outline-success:hover {
+btn-outline-success, .btn-outline-success:hover, .btn-outline-success:active, .btn-outline-success:focus {
+    color: #fff;
     background-color: #000;
+    border-color: var(--navgray);
+    box-shadow: none;
 }
 
 .dropdown img {
