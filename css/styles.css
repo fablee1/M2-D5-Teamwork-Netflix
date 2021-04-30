@@ -16,6 +16,7 @@
 .message{
     color: #fff;
     font-size: 15px;
+    padding-left: 10px;
 }
 hr{
     color: grey;
