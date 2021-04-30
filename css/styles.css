@@ -130,3 +130,7 @@ footer .nav-link:hover {
     background-color: #6c757d;
     color: white;
 }
+
+.btn-service-code:focus {
+    box-shadow: none;
+}
