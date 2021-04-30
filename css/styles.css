@@ -1,9 +1,9 @@
 h1, h2, h3 {
-margin-top: 0;
-margin-bottom: .5rem;
-font-weight: 500;
-line-height: 1.2;
-color: white;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: white;
 }
 
 h3 {
@@ -77,7 +77,6 @@ body {
 }
 
 #navbar {
-    position: fixed;
     padding-right: 40px; /*This can be edited to match padding on other components*/
     padding-left: 40px; /*This can be edited to match padding on other components*/
     width: 100%;

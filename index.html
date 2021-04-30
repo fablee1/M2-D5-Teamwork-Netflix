@@ -13,158 +13,160 @@
   </head>
   <body>
     <!--Beginning of Navbar-->
-    <nav class="navbar navbar-expand-xl navbar-dark navbar-bg" id="navbar">
-      <img id="logo" src="assets/netflix_logo.png">
-      <div class="collapse navbar-collapse justify-content-between">
-        <div>
-          <ul class="navbar-nav px-5">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">TV Shows</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Movies</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Recently Added</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">My List</a>
-            </li>
-          </ul>
-        </div>
-        <div class="searchbox">
-          <form class="d-flex justify-content-center">
-            <input class="form-control dark-search" type="search" placeholder="" aria-label="Search">
-            <button class="d-flex align-items-center btn btn-outline-success dark-search" type="submit"><i class="fas fa-search"></i></button>
-            <a class="d-flex align-items-center nav-link px-3" href="#">KIDS</a>
-            <i class="d-flex btn btn-outline-success far fa-bell dark-search"></i>
-          </form>
-        </div>
-        <div class="dropdown">
-            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-              <img src="https://ih0.redbubble.net/image.618427277.3222/flat,1000x1000,075,f.u2.jpg"></a>
-            </a>        
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li><a class="dropdown-item" href="netflix-profile.html">Vardan</a></li>
-              <li><a class="dropdown-item" href="netflix-profile.html">Samuel</a></li>
-              <li><a class="dropdown-item" href="netflix-profile.html">Viljams</a></li>
-              <li><a class="dropdown-item" href="netflix-profile.html">Sarah</a></li>
+    <section id="navSection">
+      <nav class="navbar navbar-expand-xl navbar-dark navbar-bg" id="navbar">
+        <img id="logo" src="assets/netflix_logo.png">
+        <div class="collapse navbar-collapse justify-content-between">
+          <div>
+            <ul class="navbar-nav px-5">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">TV Shows</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recently Added</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My List</a>
+              </li>
             </ul>
-        </div>             
-    </nav>
-<!-- end of navbar/beginning of carousels     -->
-        <section id="genredetails">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col d-flex justify-content-between">
-                <div class="d-flex">
-                  <div class="p-2 bg-black text-white d-inline">
-                    <h3>TV Shows</h3> 
+          </div>
+          <div class="searchbox">
+            <form class="d-flex justify-content-center">
+              <input class="form-control dark-search" type="search" placeholder="" aria-label="Search">
+              <button class="d-flex align-items-center btn btn-outline-success dark-search" type="submit"><i class="fas fa-search"></i></button>
+              <a class="d-flex align-items-center nav-link px-3" href="#">KIDS</a>
+              <i class="d-flex btn btn-outline-success far fa-bell dark-search"></i>
+            </form>
+          </div>
+          <div class="dropdown">
+              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://ih0.redbubble.net/image.618427277.3222/flat,1000x1000,075,f.u2.jpg"></a>
+              </a>        
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="netflix-profile.html">Vardan</a></li>
+                <li><a class="dropdown-item" href="netflix-profile.html">Samuel</a></li>
+                <li><a class="dropdown-item" href="netflix-profile.html">Viljams</a></li>
+                <li><a class="dropdown-item" href="netflix-profile.html">Sarah</a></li>
+              </ul>
+          </div>             
+      </nav>
+    </section>
+    <!-- end of navbar/beginning of carousels     -->
+    <section id="genredetails">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col d-flex justify-content-between">
+            <div class="d-flex">
+              <div class="p-2 bg-black text-white d-inline">
+                <h3>TV Shows</h3> 
+              </div>
+              <div class="p-2 bg-black text-white d-inline">
+                <button class="btn btn-outline-light dropdown-toggle genre-button">Genre</button>
+              </div>
+            </div>
+            <div class="menuitems py-2 bg-black text-white d-inline">
+              <button class="btn btn-outline-secondary bg-black text-white"><i class="fas fa-align-left"></i></button>
+              <button class="btn btn-outline-secondary  bg-black text-white">
+                <i class="fas fa-border-all"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="sectionOne" class="m-2">
+      <div id="trendingnow" class="mt-5">
+        <h3>Trending Now</h3>
+      </div>
+      <div class="cointainer bg-black">
+        <div class="row">
+          <div id="carouselExampleControlsOne" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row d-flex">
+                  <div class="col-md-2">
+                    <img class="movies" src="/assets/media/media1.jpg" alt="media1" >
                   </div>
-                  <div class="p-2 bg-black text-white d-inline">
-                    <button class="btn btn-outline-light dropdown-toggle genre-button">Genre</button>
+                  <div class="col-md-2">
+                    <img class="movies"src="/assets/media/media2.webp" alt="media2">
+                  </div>
+                  <div class="col-md-2">
+                    <img class="movies"src="/assets/media/media3.webp" alt="media3">
+                  </div>
+                  <div class="col-md-2">
+                    <img class="movies"src="/assets/media/media4.jpg" alt="media4">
+                  </div>
+                  <div class="col-md-2">
+                    <img class="movies"src="/assets/media/media5.webp" alt="media5">
+                  </div>
+                  <div class="col-md-2">
+                    <img class="movies"src="/assets/media/media6.jpg" alt="media6">
                   </div>
                 </div>
-                <div class="menuitems py-2 bg-black text-white d-inline">
-                  <button class="btn btn-outline-secondary bg-black text-white"><i class="fas fa-align-left"></i></button>
-                  <button class="btn btn-outline-secondary  bg-black text-white">
-                    <i class="fas fa-border-all"></i>
-                  </button>
+              </div>
+              <div class="carousel-item"> 
+                <div class="row d-flex">
+                  <div class="col-md-2">
+                    <img class="movies" src="/assets/media/media1.jpg" alt="media1" >
+                  </div>
+                  <div class="col-md-2">
+                    <img class="movies"src="/assets/media/media2.webp" alt="media2">
+                  </div>
+                  <div class="col-md-2">
+                    <img class="movies"src="/assets/media/media3.webp" alt="media3">
+                  </div>
+                  <div class="col-md-2">
+                    <img class="movies"src="/assets/media/media4.jpg" alt="media4">
+                  </div>
+                  <div class="col-md-2">
+                    <img class="movies"src="/assets/media/media5.webp" alt="media5">
+                  </div>
+                  <div class="col-md-2">
+                    <img class="movies"src="/assets/media/media6.jpg" alt="media6">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item"> 
+                <div class="row d-flex">
+                  <div class="col-md-2">
+                    <img class="movies" src="/assets/media/media1.jpg" alt="media1" >
+                  </div>
+                  <div class="col-md-2">
+                    <img class="movies"src="/assets/media/media2.webp" alt="media2">
+                  </div>
+                  <div class="col-md-2">
+                    <img class="movies"src="/assets/media/media3.webp" alt="media3">
+                  </div>
+                  <div class="col-md-2">
+                    <img class="movies"src="/assets/media/media4.jpg" alt="media4">
+                  </div>
+                  <div class="col-md-2">
+                    <img class="movies"src="/assets/media/media5.webp" alt="media5">
+                  </div>
+                  <div class="col-md-2">
+                    <img class="movies"src="/assets/media/media6.jpg" alt="media6">
+                  </div>
                 </div>
               </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsOne" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsOne" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-        </section>
-        <section id="sectionOne" class="m-2">
-          <div id="trendingnow" class="mt-5">
-            <h3>Trending Now</h3>
-          </div>
-          <div class="cointainer bg-black">
-            <div class="row">
-              <div id="carouselExampleControlsOne" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="row d-flex">
-                      <div class="col-md-2">
-                        <img class="movies" src="/assets/media/media1.jpg" alt="media1" >
-                      </div>
-                      <div class="col-md-2">
-                        <img class="movies"src="/assets/media/media2.webp" alt="media2">
-                      </div>
-                      <div class="col-md-2">
-                        <img class="movies"src="/assets/media/media3.webp" alt="media3">
-                      </div>
-                      <div class="col-md-2">
-                        <img class="movies"src="/assets/media/media4.jpg" alt="media4">
-                      </div>
-                      <div class="col-md-2">
-                        <img class="movies"src="/assets/media/media5.webp" alt="media5">
-                      </div>
-                      <div class="col-md-2">
-                        <img class="movies"src="/assets/media/media6.jpg" alt="media6">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item"> 
-                    <div class="row d-flex">
-                      <div class="col-md-2">
-                        <img class="movies" src="/assets/media/media1.jpg" alt="media1" >
-                      </div>
-                      <div class="col-md-2">
-                        <img class="movies"src="/assets/media/media2.webp" alt="media2">
-                      </div>
-                      <div class="col-md-2">
-                        <img class="movies"src="/assets/media/media3.webp" alt="media3">
-                      </div>
-                      <div class="col-md-2">
-                        <img class="movies"src="/assets/media/media4.jpg" alt="media4">
-                      </div>
-                      <div class="col-md-2">
-                        <img class="movies"src="/assets/media/media5.webp" alt="media5">
-                      </div>
-                      <div class="col-md-2">
-                        <img class="movies"src="/assets/media/media6.jpg" alt="media6">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item"> 
-                    <div class="row d-flex">
-                      <div class="col-md-2">
-                        <img class="movies" src="/assets/media/media1.jpg" alt="media1" >
-                      </div>
-                      <div class="col-md-2">
-                        <img class="movies"src="/assets/media/media2.webp" alt="media2">
-                      </div>
-                      <div class="col-md-2">
-                        <img class="movies"src="/assets/media/media3.webp" alt="media3">
-                      </div>
-                      <div class="col-md-2">
-                        <img class="movies"src="/assets/media/media4.jpg" alt="media4">
-                      </div>
-                      <div class="col-md-2">
-                        <img class="movies"src="/assets/media/media5.webp" alt="media5">
-                      </div>
-                      <div class="col-md-2">
-                        <img class="movies"src="/assets/media/media6.jpg" alt="media6">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsOne" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsOne" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </section> 
+        </div>
+      </div>
+    </section> 
         <!-- end of carousel One-->
 
         <section id="sectionTwo" class="m-2">
