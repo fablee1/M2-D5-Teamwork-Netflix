@@ -68,10 +68,7 @@ body {
 }
 
 
-.btn-outline-success:hover {
-    background-color: rgba(0, 0, 0, 0);
-
-btn-outline-success, .btn-outline-success:hover, .btn-outline-success:active, .btn-outline-success:focus {
+.btn-outline-success, .btn-outline-success:hover, .btn-outline-success:active, .btn-outline-success:focus {
     color: #fff;
     background-color: rgba(0, 0, 0, 0);
     border-color: var(--navgray);
