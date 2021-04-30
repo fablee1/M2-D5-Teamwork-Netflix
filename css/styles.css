@@ -3,7 +3,7 @@
 }
 
 body {
-    background: #000;
+    background: #141414;
     color: #fff;
     line-height: 1.2;
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
@@ -25,8 +25,12 @@ body {
     color: #fff;
 }
 
+.fa-bell::before {
+    margin: auto;
+}
+
 .navbar-bg {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(20,20,20,0.8);
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -57,17 +61,22 @@ body {
 }
 
 .dark-search {
-    background-color: #000;
+    background-color: rgba(20,20,20,0.8);
     border: none;
     color: var(--navgray);
     font-size: 1.2rem;
 }
 
+
+.btn-outline-success:hover {
+    background-color: rgba(0, 0, 0, 0);
+
 btn-outline-success, .btn-outline-success:hover, .btn-outline-success:active, .btn-outline-success:focus {
     color: #fff;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0);
     border-color: var(--navgray);
     box-shadow: none;
+
 }
 
 .dropdown img {
