@@ -148,17 +148,15 @@ body {
 }
 
 .dropdown-menu {
-    min-height: 35px;
+    max-height: 37px;
+}
+
+.dropdown-item {
+    background-color: #666;
 }
 
 .dropdown-menu.show {
     background-color: #666;
-}
-
-#profile-dropdown {}
-
-.dropdown-search {
-    max-height: 20px;
 }
 
 footer a{
