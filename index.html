@@ -13,6 +13,7 @@
   </head>
   <body>
 
+    <!--Beginning of Navbar-->
     <nav class="navbar navbar-expand-xl navbar-dark navbar-bg" id="navbar">
       <img id="logo" src="assets/netflix_logo.png">
       <div class="collapse navbar-collapse justify-content-between">
@@ -37,10 +38,10 @@
         </div>
         <div class="searchbox">
           <form class="d-flex">
-            <input class="form-control dark-search" type="search" placeholder="" aria-label="Search">
+            <input class="form-control bg-dark dark-search" id="hideable" type="search" placeholder="Titles, people, genres" aria-label="Search">
             <button class="btn btn-outline-success dark-search" type="submit"><i class="fas fa-search"></i></button>
-            <a class="nav-link px-3" href="#">KIDS</a>
-            <i class="btn btn-outline-success far fa-bell dark-search"></i>
+            <a class="nav-link px-3 py-3" href="#">KIDS</a>
+            <i class="btn btn-outline-success py-3 far fa-bell dark-search"></i>
           </form>
         </div>
         <div class="dropdown">
@@ -48,16 +49,15 @@
               <img src="https://ih0.redbubble.net/image.618427277.3222/flat,1000x1000,075,f.u2.jpg"></a>
             </a>        
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Vardan</a></li>
-              <li><a class="dropdown-item" href="#">Samuel</a></li>
-              <li><a class="dropdown-item" href="#">Viljams</a></li>
-              <li><a class="dropdown-item" href="#">Sarah</a></li>
+              <li><a class="dropdown-item" href="netflix-profile.html">Vardan</a></li>
+              <li><a class="dropdown-item" href="netflix-profile.html">Samuel</a></li>
+              <li><a class="dropdown-item" href="netflix-profile.html">Viljams</a></li>
+              <li><a class="dropdown-item" href="netflix-profile.html">Sarah</a></li>
             </ul>
         </div>             
-    </nav>
-
-     
-
+    </nav>   
+    
+    <!--Beginning of Footer-->
     <div class="container">
       <footer>
         <div class="row justify-content-center" id="socials">
@@ -104,6 +104,12 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/20fa2a972a.js" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+    <script src="js/script.js">
+      window.onload=function() {
+        const showPlaceholder = function() {
+          document.querySelector('#hideable').style.visibility = 'visible'
+        }
+      }
+    </script>
   </body>
 </html>
