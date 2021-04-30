@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+footer a{
+    color: #6c757d;
+    font-size: 1rem;
+}
+
+footer .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+footer .nav-link:hover {
+    color: white;
+}
+
+.fab {
+    color: #6c757d;
+    display: inline;
+    vertical-align: middle;
+    margin-right: 0.8rem;
+}
+
+.fab:hover {
+    color: white;
+}
+
+#socials {
+    font-size: 2rem;
+}
