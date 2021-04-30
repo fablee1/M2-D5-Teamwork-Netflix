@@ -43,7 +43,7 @@ hr{
     background-color:  rgb(24, 23, 23);
     border: 1px solid grey;
     padding: 0.5em 8%;
-    font-size: 1.25em;
+    font-size: 1.1em;
     border-radius: 0;
 }
 .btn-controls:hover{
@@ -102,7 +102,6 @@ img, svg {
 }
 
 #genredetails {
-    padding: 1em;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -138,7 +137,7 @@ img, svg {
 }
 
 h3 {
-    font-size: 23px
+    font-size: 23px;
 }
     
 :root {
@@ -313,4 +312,13 @@ footer .nav-link:hover {
 
 #footerContainer {
     margin-top: 100px;
+}
+
+#ProfileContainer {
+    margin-top: 70px;
+    margin-bottom: 15%;
+}
+
+#allMaturityRatings {
+    color: white;
 }
