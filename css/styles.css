@@ -36,12 +36,15 @@ hr{
     text-align: center;
 }
 .btn-edit:hover{
-background-color: #fff;
-color: black;
+    background-color: #fff;
+    color: black;
 }
 .btn-controls{
     background-color:  rgb(24, 23, 23);
     border: 1px solid grey;
+    padding: 0.5em 8%;
+    font-size: 1.25em;
+    border-radius: 0;
 }
 .btn-controls:hover{
     background-color: #fff;
