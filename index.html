@@ -16,7 +16,10 @@
     <section id="navSection">
       <nav class="navbar navbar-expand-xl navbar-dark navbar-bg" id="navbar">
         <img id="logo" src="assets/netflix_logo.png">
-        <div class="collapse navbar-collapse justify-content-between">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="collapsedContent">
           <div>
             <ul class="navbar-nav px-5">
               <li class="nav-item">
@@ -36,25 +39,36 @@
               </li>
             </ul>
           </div>
-          <div class="searchbox">
-            <form class="d-flex justify-content-center">
-              <input class="form-control dark-search" type="search" placeholder="" aria-label="Search">
-              <button class="d-flex align-items-center btn btn-outline-success dark-search" type="submit"><i class="fas fa-search"></i></button>
-              <a class="d-flex align-items-center nav-link px-3" href="#">KIDS</a>
-              <i class="d-flex btn btn-outline-success far fa-bell dark-search"></i>
-            </form>
-          </div>
-          <div class="dropdown">
-              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="https://ih0.redbubble.net/image.618427277.3222/flat,1000x1000,075,f.u2.jpg"></a>
-              </a>        
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <li><a class="dropdown-item" href="netflix-profile.html">Vardan</a></li>
-                <li><a class="dropdown-item" href="netflix-profile.html">Samuel</a></li>
-                <li><a class="dropdown-item" href="netflix-profile.html">Viljams</a></li>
-                <li><a class="dropdown-item" href="netflix-profile.html">Sarah</a></li>
+          <div class="d-flex">
+            <div class="btn-group dropstart dropdown-search px-2">
+              <button type="button" class="btn btn-secondary dropdown-toggle dropdown-search" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-search"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <div class="searchbox">
+                  <form class="d-flex dropdown-search">
+                    <input class="form-control bg-dark dark-search" id="hideable" type="search" placeholder="" aria-label="Search">
+                    <!--in functioning site submit button goes here-->
+                  </form>
+                </div>
               </ul>
-          </div>             
+            </div>
+            <div class="alertbellbox d-flex">
+              <a class="nav-link px-4" href="#">KIDS</a>
+              <i class="btn btn-outline-success far fa-bell dark-search px-4"></i>
+            </div>
+            <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="https://ih0.redbubble.net/image.618427277.3222/flat,1000x1000,075,f.u2.jpg"></a>
+                </a>        
+                <ul class="dropdown-menu" id="profile-dropdown" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="netflix-profile.html">Vardan</a></li>
+                  <li><a class="dropdown-item" href="netflix-profile.html">Samuel</a></li>
+                  <li><a class="dropdown-item" href="netflix-profile.html">Viljams</a></li>
+                  <li><a class="dropdown-item" href="netflix-profile.html">Sarah</a></li>
+                </ul>
+            </div> 
+          </div>
       </nav>
     </section>
     <!-- end of navbar/beginning of carousels     -->
@@ -78,37 +92,6 @@
             </div>
           </div>
         </div>
-        <div class="d-flex">
-          <div class="btn-group dropstart dropdown-search px-2">
-            <button type="button" class="btn btn-secondary dropdown-toggle dropdown-search" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="fas fa-search"></i>
-            </button>
-            <ul class="dropdown-menu">
-              <div class="searchbox">
-                <form class="d-flex dropdown-search">
-                  <input class="form-control bg-dark dark-search" id="hideable" type="search" placeholder="" aria-label="Search">
-                  <!--in functioning site submit button goes here-->
-                </form>
-              </div>
-            </ul>
-          </div>
-          <div class="alertbellbox d-flex">
-            <a class="nav-link px-4" href="#">KIDS</a>
-            <i class="btn btn-outline-success far fa-bell dark-search px-4"></i>
-          </div>
-          <div class="dropdown">
-              <a class="btn btn-secondary dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="https://ih0.redbubble.net/image.618427277.3222/flat,1000x1000,075,f.u2.jpg"></a>
-              </a>        
-              <ul class="dropdown-menu" id="profile-dropdown" aria-labelledby="dropdownMenuLink">
-                <li><a class="dropdown-item" href="netflix-profile.html">Vardan</a></li>
-                <li><a class="dropdown-item" href="netflix-profile.html">Samuel</a></li>
-                <li><a class="dropdown-item" href="netflix-profile.html">Viljams</a></li>
-                <li><a class="dropdown-item" href="netflix-profile.html">Sarah</a></li>
-              </ul>
-          </div> 
-        </div>
-    </nav>   
       </div>
     </section>
     <section id="sectionOne" class="m-2">
