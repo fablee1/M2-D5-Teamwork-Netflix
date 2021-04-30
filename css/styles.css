@@ -1,3 +1,79 @@
+
+.profile-body{
+    box-sizing: border-box;
+    background-color: rgb(24, 23, 23);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    color: #fff;
+    text-align: center;
+}
+#language, .maturity{
+    color: #fff;
+    font-size: large;
+}
+
+
+.message{
+    color: #fff;
+    font-size: 15px;
+}
+hr{
+    color: grey;
+}
+
+.btn-edit-language{
+    border: 1px solid white;
+    width: 150px;
+    background-color:  rgb(24, 23, 23);
+    text-align: left;
+}
+.btn-edit{
+    border: 1px solid grey;
+    width: 100px;
+    background-color:  rgb(24, 23, 23);
+    text-align: center;
+}
+.btn-edit:hover{
+background-color: #fff;
+color: black;
+}
+.btn-controls{
+    background-color:  rgb(24, 23, 23);
+    border: 1px solid grey;
+}
+.btn-controls:hover{
+    background-color: #fff;
+    color: black;
+}
+.form-check-input{
+    width: 30px;
+    height: 20px;
+    background-color: rgb(24, 23, 23);
+    border: 1px solid rgb(104, 99, 99);
+}
+.form-check-input:focus, .form-check-input:checked {
+    background-color:rgb(24, 23, 23);
+}
+
+.strive-input{
+    background-color: grey;
+    font-weight: bolder;
+    color: #fff;
+    height: 50px;
+    border: none;
+}
+.language-row{
+margin-top: 55px;
+}
+.maturity, .maturity-ratings{
+    margin-bottom: 15px;
+}
+
+.maturity-ratings{
+    background-color: grey;
+}
+
 h1, h2, h3 {
     margin-top: 0;
     margin-bottom: .5rem;
